@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #f8faf3;
+}
+
+/* ---Body Start--- */
+
+body {
+    background-color: rgba(37, 29, 35, 0.971);
+    padding-top: 50px;
+}
+
+/* ---Continer Start--- */
+
+.continer {
+    background-color: rgba(9, 9, 10, 0.638);
+    height: 550px;
+    width: 1000px;
+    margin: auto;
+    padding: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+/* ---Navbar Start--- */
+
+.navbar span {
+    color: rgb(245, 246, 241);
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 200px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgb(245, 246, 241);
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.navbar a:hover {
+    color: red;
+    background-color: rgb(206, 248, 18);
+}
+
+/* ---Content Start--- */
+
+.content {
+    margin: 0px;
+    padding-top: 100px;
+    width: 450px;
+}
+
+.content h1 {
+    width: 450px;
+    height: 50px;
+}
+
+.content span {
+    font-size: 20px;
+   
+    font-weight: 900;
+    color: rgb(250, 172, 15);
+}
+
+/* ---Icon And Image Start--- */
+
+.btn button {
+    color: blue;
+    background-color: rgb(153, 179, 236);
+    padding: 10px 15px;
+    margin-top: 25px;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+.btn button:hover{
+    color: green;
+    background-color: red;
+}
+
+/* ---Icon And Image Start--- */
+
+.icon {
+    height: 50px;
+    width: 450px;
+    margin-top: 50px;
+    background-image: url(facebook.png);
+    background-repeat: no-repeat;
+}
+
+.img {
+    width: 400px;
+    height: 450px;
+    background-image: url(cyber.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: -380px;
+    background-color: rgba(8, 1, 15, 0.24);
+
+}
+
+/* ---Continer End--- */
